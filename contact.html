@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <title>This is a Title</title>
+
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+
+    <header class = "navbar">
+        <h2>Navigation</h2>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="flights.html">Flight Info</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+
+    <h1 class = "top_bar">Flight tickets</h1>
+
+    
+
+    <section class = "contact">
+        <h1>Have feedback? Contact us!</h1>
+
+        <section class = "dropdown-questions">
+            <div class = "q-columns">
+                <label for = name_input>Input email: </label>
+                <input type = "text" required></input>
+            </div>
+
+
+            <div class = "q-columns">
+                <label>Question Type: </label>
+
+                <select>
+                    <option>Pricing</option>
+                    <option>Service</option>
+                    <option>Payments</option>
+                    <option>Investment</option>
+                    <option>Data</option>
+                    <option>Others</option>
+                </select>
+            </div>
+
+            <div class = "q-columns">
+                <label for = others>Others (Question type): </label>
+                <input type = "text" required></input>
+            </div>
+
+            <div class = "q-columns">
+                <label for = quant_input>Date of Question: </label>
+                <input type = "date" required></input>
+            </div>
+
+            <div class = "q-columns">
+                <label for = quant_input>Input Question: </label>
+                <input id = "question" required></input>
+            </div>
+
+
+
+            <div class = "q-columns">
+                <button type = "submit">Submit Question</button>
+            </div>
+            
+        </section>
+    </section>
+
+    <br><br><br>
+
+    <footer>
+        <p>2026 project. HTML CSS frontend coding. Airline ticket website project.</p>
+    </footer>
+
+</body>
