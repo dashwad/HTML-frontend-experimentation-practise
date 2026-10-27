@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <title>This is a Title</title>
+
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+
+    <header class = "navbar">
+        <h2>Navigation</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="flights.html">Flight Info</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+
+
+    <h1 class = "top_bar">Flight tickets</h1>
+
+    
+
+    <section class = "selection">
+        <h1>Explore the world with us!</h1>
+        <p>Easily book flight tickets with us for the best values!</p>
+
+        <form class = "selection-box">
+            <div class = "form-columns">
+                <label for = name_input>Input name: </label>
+                <input type = "text" id = "name_input" required></input>
+            </div>
+
+
+
+            <div class = "form-columns">
+                <label>Departure City: </label>
+
+                <select>
+                    <option>Jakarta</option>
+                    <option>Bali</option>
+                    <option>Surabaya</option>
+                    <option>Yogyakarta</option>
+                </select>
+            </div>
+
+
+            <div class = "form-columns">
+                <label>Arriving City: </label>
+
+                <select>
+                    <option>Jakarta</option>
+                    <option>Bali</option>
+                    <option>Surabaya</option>
+                    <option>Yogyakarta</option>
+                </select>
+            </div>
+
+            <div class = "form-columns">
+                <label for = quant_input>Date of Departure: </label>
+                <input type = "date" required></input>
+            </div>
+
+            <div class = "form-columns">
+                <label for = quant_input>Input quantity: </label>
+                <input type = "quantity" id = "quant_input" required></input>
+            </div>
+
+
+
+            <div class = "form-columns">
+                <button type = "submit">Submit Selections</button>
+            </div>
+
+        </form>
+    
+    </section>
+
+    <br><br><br>
+
+    <footer>
+        <p>2026 project. HTML CSS frontend coding. Airline ticket website project.</p>
+    </footer>
+
+</body>
