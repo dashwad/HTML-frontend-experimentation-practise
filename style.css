@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div {
+    padding: 5%;
+}
+
+button {
+    padding: 13px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color:  #1769e0;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+.top_bar {
+    color: blue;
+}
+
+.selection {
+    background-color: rgb(98, 165, 231);
+    padding: 3%;
+}
+
+.selection-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    column-gap: 5%;
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.form-columns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.selection-box div{
+    align-self: end;
+}
+
+.selection-box input, 
+.selection-box select {
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid rgb(135, 150, 162);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(196, 226, 252);
+    justify-content: space-between;
+    box-shadow: 0, 3px, 12px, rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.navbar a, 
+.navbar h2{
+    text-decoration: none;
+    color: rgb(37, 49, 72);
+    font-weight: bold;
+    align-self: top;
+    padding-left: 20px;
+}
+
+.navbar a:hover{
+    color: #1769e0;
+}
+
+.flight_info{
+    background-color: #a4c8ff;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    padding: 15px;
+}
+
+.flight_info div{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+
+.contact {
+    background-color: rgb(98, 165, 231);
+    padding: 3%;
+}
+
+.dropdown-questions{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    column-gap: 5%;
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.q-columns{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-questions input, 
+.dropdown-questions select {
+    width: 95%;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid rgb(135, 150, 162);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.dropdown-questions div{
+    align-self: end;
+}
+
+footer{
+    background-color: #0c274f;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    align-self: baseline;
+}
